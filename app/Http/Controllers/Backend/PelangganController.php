@@ -38,7 +38,7 @@ class PelangganController extends Controller
         'no_telepon.unique' => '*Nomor Telphone sudah digunakan',
         'no_telepon.digits_between' => '*Nomor Telphone harus terdiri dari 10 hingga 12 digit Angka',
     ];
-
+// tes github
     $this->validate($request, $rules, $messages);
 
     $pelanggan = new Pelanggan();
